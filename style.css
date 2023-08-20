@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#hero {
+  margin-top: 50px;
+}
+
+.whatch {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+  font-size: 200px;
+}
+
+.content p {
+  font-size: 45px;
+}
+.content span {
+  font-size: 40px;
+}
+.buttons {
+  margin-top: 40px;
+}
+.buttons button {
+  padding: 20px 60px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.buy {
+  background-color: black;
+  color: aqua;
+}
+
+/*models 2 */
+
+.models {
+  margin-top: 50px;
+}
+.models-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.content-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-title p {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.content-title h1 {
+  font-size: 70px;
+  line-height: 50px;
+}
+
+.model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image3 {
+  background: rgb(red, green, blue);
+  padding: 110px 60px;
+}
+.model h4 {
+  font-size: 50px;
+}
+.model p {
+  font-size: 50px;
+  max-width: 700px;
+  text-align: center;
+  margin: 0;
+  font-family: fantasy;
+}
+.image4 {
+  background: rgb(red, green, blue);
+  padding: 110px 60px;
+}
